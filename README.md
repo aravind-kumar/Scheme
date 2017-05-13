@@ -1,5 +1,6 @@
 # Scheme
-Hey there my name is Aravind ..
+Hey there my name is Aravind.
+
 Starting today i am going to learn the functional programming language scheme.
 
 ----
