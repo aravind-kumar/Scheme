@@ -11,9 +11,8 @@ Starting today i am going to learn the functional programming language scheme.
 
 
 
-[![5 Programming Languages programmer should know](http://img.youtube.com/vi/LR8fQiskYII/0.jpg)]
+[![5 Programming Languages programmer should know](http://img.youtube.com/vi/LR8fQiskYII/0.jpg)](http://www.youtube.com/watch?v=LR8fQiskYII "Larry Wall: 5 Programming Languages Everyone Should Know")
 
-(http://www.youtube.com/watch?v=LR8fQiskYII "Larry Wall: 5 Programming Languages Everyone Should Know")
 
 After programming in C,C++ and Java.
 Once i started to code in a pure functional language, 
