@@ -1,5 +1,5 @@
-# scheme
-Hey there my name is Aravind..
+# Scheme
+Hey there my name is Aravind ..
 Starting today i am going to learn the functional programming language scheme.
 
 ----
