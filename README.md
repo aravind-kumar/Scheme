@@ -1,7 +1,8 @@
 # scheme
-Hey there my name is aravind.
+Hey there my name is Aravind..
 Starting today i am going to learn the functional programming language scheme.
 
+----
 ## Why Functional Programming?
 
 
@@ -18,6 +19,7 @@ Once i started to code in a pure functional language,
 I started to appreciate the concepts and abilities provided by a pure functional language such as Lamda functions,Higher order functions etc.
 Although these concepts are just the tip of the ice berg, I am motivated and willing to learn since i experinced that once i understood the concepts my coding style and thinking started to change and transformed me into a better programmer.
 
+----
 ## Why Scheme
 
 Well i wanted to start out with haskell,
@@ -36,9 +38,9 @@ After learning Scheme, you'll be well-equipped to recognize and use functional p
 
 Plus the text book and the video lectures are publicy avaliable:
 - [Textbook:](https://mitpress.mit.edu/sicp/full-text/book/book.html)
-- [Lectures:]
-(https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/)
+- [Lectures:](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/)
 
+---- 
 ### Textbooks used :
 - MIT Scheme
 - Realm of Racket
