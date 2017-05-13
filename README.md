@@ -26,8 +26,8 @@ Although these concepts are just the tip of the ice berg, I am motivated and wil
 Well i wanted to start out with haskell,
 However i also wanted to find which is the best functional programming language to start out with.
 And i landed upon 
-[What is the best programming language to get started by Jean Yang]
-(https://www.quora.com/What-are-the-best-languages-for-getting-into-functional-programming-and-why)
+[What is the best programming language to get started by Jean Yang](https://www.quora.com/What-are-the-best-languages-for-getting-into-functional-programming-and-why)
+]
 
 ### Summary of text:
 Haskell is beautiful and will teach you to think about programming in a new way.
