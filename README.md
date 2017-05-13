@@ -11,6 +11,7 @@ Starting today i am going to learn the functional programming language scheme.
 
 
 
+#### Larry Wall: 5 Programming Languages Everyone Should Know
 [![5 Programming Languages programmer should know](http://img.youtube.com/vi/LR8fQiskYII/0.jpg)](http://www.youtube.com/watch?v=LR8fQiskYII "Larry Wall: 5 Programming Languages Everyone Should Know")
 
 
