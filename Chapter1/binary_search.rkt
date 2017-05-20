@@ -8,9 +8,9 @@
                             [ element-at-position (list-ref input-list (sub1 position)) ])
                       (cond 
                       [ (equal? given-num element-at-position) (sub1 position) ]
-                      [ (< given-num element-at-position) (binary-search-helper min (- position 1)) ] 
-                      [ (> given-num element-at-position) (binary-search-helper (+ position 1) max) ]))
+                      [ (< given-num element-at-position) (binary-search-helper min (sub1 position)) ] 
+                      [ (> given-num element-at-position) (binary-search-helper (add1 position) max) ]))
 	       -1))
 	(binary-search-helper 0 (length input-list)))
 
-(binary-search (build-list 11 values) 4)
+(binary-search (build-list 11 values) 1234)
