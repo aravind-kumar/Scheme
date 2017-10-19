@@ -26,12 +26,12 @@
 
 (define (guess current-world)
   (quotient (+ (interval-low current-world)
-                             (interval-high current-world)) 2))
+               (interval-high current-world)) 2))
 
 (define (bigger current-world)
   (interval (min (interval-high current-world)
-                  (add1 (guess current-world)))
-             (interval-high current-world)))
+                 (add1 (guess current-world)))
+            (interval-high current-world)))
 
 (define (smaller current-world)
   (interval (interval-low current-world)
@@ -42,13 +42,14 @@
   (= (interval-low current-world) (interval-high current-world)))
 
 (define (print-current-guess current-state)
-    (overlay (text (string-append "Low is : " (number->string (interval-low current-state))
+  (overlay (text (string-append "Low is : " (number->string (interval-low current-state))
                                 " ,High is: " (number->string (interval-high current-state)))
                  20
                  "blue") 
-             (place-image/align (text (number->string (guess current-state)) 50 "blue")
-                                10 150 "left" "bottom"
-                                start-scene)))
+           (place-image/align (text (string-append "Current-Guess is: "
+                                                   (number->string (guess current-state))) 50 "blue")
+                              10 150 "left" "bottom"
+                              start-scene)))
 
 (define (improve-guess world key)
   (cond [ (key=? key "up") (bigger world) ]
@@ -59,7 +60,7 @@
 
 (define (render-last-scene world )
   (overlay (text (string-append "End.The Guess is " (number->string (guess world)))
-                                20 "blue") start-scene))
+                 20 "blue") start-scene))
 
 (define (start low high)
   (big-bang (interval low high)
@@ -67,4 +68,3 @@
             (to-draw print-current-guess)
             (stop-when single? render-last-scene)))
 
-            
