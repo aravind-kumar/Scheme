@@ -1,0 +1,16 @@
+#! /bin/env/racket
+#lang racket
+
+(define (binary-search input-list given-num)
+        (define (binary-search-helper min max)
+                (if (>= max min)
+                    (local ((define position (quotient (+ min max) 2))))
+                    (local ((define element-at-position (list-ref input-list position))))
+		    (cond 
+                      [ (equal? given-num element-at-position) position ]
+                      [ (< given-num element-at-position) (binary-search-helper min (- position 1)) ] 
+                      [ (> given-num element-at-position) (binary-search-helper (+ position 1) max) ])
+	       -1))
+	(binary-search-helper 0 (length input-list)))
+
+(binary-search (build-list 11 values) 1333)
